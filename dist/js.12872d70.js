@@ -3,4 +3,4 @@ function e(e,n){if(!(e instanceof n))throw new TypeError("Cannot call a class as
 },{}],"5w/f":[function(require,module,exports) {
 var e=require("./utils/events"),t=new e;t.toggleTheme(),t.toggleNavList();
 },{"./utils/events":"DPur"}]},{},["5w/f"], null)
-//# sourceMappingURL=js.12872d70.js.map
+//# sourceMappingURL=/js.12872d70.js.map
