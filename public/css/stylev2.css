@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    --color-light: #c1cfda;
+    --color-dark: #000000;
+    --color-blue: #246eb9;
+    --color-red: #92140c;
+    --color-green: #32cd32;
+
+    font: 20px/1.618;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: var(--color-dark);
+    padding: 0.25rem;
+    border-radius: 0.125rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-red);
+}
+
+.nav__list-anchor {
+    color: var(--color-green);
+}

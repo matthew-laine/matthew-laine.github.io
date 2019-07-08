@@ -1,0 +1,18 @@
+{
+  "name": "dev.matt-laine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "repository": "git@bitbucket.org:matthew-laine/dev.matt-laine.git",
+  "author": "Matt Laine <matthew.i.laine@gmail.com>",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  }
+}
