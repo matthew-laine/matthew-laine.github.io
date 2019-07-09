@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
-    "predeploy": "rm -rf dist && parcel build index.html"
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html",
+    "deploy": "gh-pages -d dist",
+    "dev": "parcel index.html"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
@@ -16,6 +17,7 @@
   "author": "Matt Laine <matthew.i.laine@gmail.com>",
   "dependencies": {
     "parcel": "^1.12.3",
+    "parcel-bundler": "^1.12.3",
     "save-dev": "^2.0.0"
   }
 }
