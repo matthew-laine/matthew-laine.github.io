@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest test",
     "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url ./",
     "deploy": "gh-pages -d dist --branch master"
   },
   "dependencies": {
